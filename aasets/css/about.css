@@ -1,0 +1,249 @@
+* {
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+ }
+
+ .YT-nav{
+    background-color: #0b67c9;
+}
+.YT-nav .navbar .navbar-nav {
+    padding: 0 5%;
+
+}
+.YT-nav .navbar .navbar-nav .nav-item a {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    position: relative;
+    color: white;
+
+}
+
+.YT-nav .navbar .navbar-nav .nav-item:hover .dropdown-menu{
+    display: block;
+}
+.YT-nav .navbar .navbar-nav .nav-item:hover .dropdown-menu a{
+    color: black;
+   line-height: 30px;
+
+}
+.YT-nav .navbar .navbar-nav .nav-item:hover .dropdown-menu a:hover{
+    color: #0b67c9;
+}
+.YT-nav h2{
+    font-size: 90%;
+    margin: 0 auto;
+}
+
+nav .default-btn {
+    border: none;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    z-index: 1;
+    color: #ffffff;
+    background-color: #007aff;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    box-shadow: 0 7px 25px rgb(123 104 238 / 25%);
+    text-decoration: none;
+}
+.default-btn:hover{
+    width: 100%;
+    background-color: blue;
+    color: white;
+}
+
+
+.contents{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 20% 15%;
+    height: 100%;
+    background-image: url(https://cutesolution.com/html/Techvio/assets/img/banner-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    color: white;
+}
+@media screen  and (max-width:550px){
+    .contents{
+        grid-template-columns: repeat(1,1fr);
+        text-align: center;
+
+
+    }
+   
+}
+.contents .content1 h4{
+    font-size: 100%;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.card img{
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto;   
+}
+@media screen  and (max-width:992px){
+    .card img{
+        display: block;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin: 0 auto;   
+    }
+}
+@media screen  and (max-width:870px){
+    .card{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media screen  and (max-width:450px){
+    .card{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+.card-text {
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Dosis', sans-serif;
+}
+
+.profile{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.content3{
+    height: 100vh;
+    background-image: url(https://www.ilias-solutions.com/wp-content/uploads/2020/05/ILIAS_ES_2020.01_Update_Front_2-1.jpg);
+    
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 1;
+   padding:5% 10%;
+   
+}
+.btn1 {
+    overflow: hidden;
+    text-align: center;
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    color:#070707 ;
+    border: 1px solid #ffffff;
+}
+.btn1:hover {
+    background-color: #0c6bfa;
+    transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+    transform: translate(4%, 4%);
+}
+.about {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.icon1:hover {
+  color: #0668fc;
+  
+}
+.icon2:hover {
+    color: #81b0f6;
+  }
+  .icon3:hover {
+    color: #fb460ac7;
+  }
+  .icon4:hover {
+    color: #b89dd3;
+  }
+  
+ 
+
+  .cards{
+    background: #fafafa; 
+    padding:  5%;
+   }
+
+
+.footer-mail{
+    margin-top: 30px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c1c23;
+    color:#fff;
+    border-bottom: 1px solid #fff;
+}
+.footer-mail a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer{
+    background-color: #1c1c23;
+}
+.footer-header{
+    padding:20px 0px;
+    border-bottom: 1px solid #fff;
+}
+.footer-text{
+    font-size: 14px;
+    margin-top: 15px;
+}
+.footer ul li{
+    list-style-type: none;
+    margin: 10px 0px;
+    margin-left: -25px;
+}
+.footer-text li a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.8s;
+}
+.footer-text li a:hover{
+    text-decoration: underline;
+    color: #007aff;
+}
+.d-flex i{
+    margin:10px 20px;
+    font-size: 1.5rem;
+}
+.contact-info{
+    margin: 10px 0px;
+}
+.flex-column a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.8s;
+}
+.flex-column a:hover{
+    text-decoration: underline;
+    color: #007aff;
+}

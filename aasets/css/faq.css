@@ -1,0 +1,196 @@
+.YT-nav{
+    background-color: #0b67c9;
+}
+.YT-nav .navbar .navbar-nav {
+    padding: 0 5%;
+
+}
+.YT-nav .navbar .navbar-nav .nav-item a {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    position: relative;
+    color: white;
+
+}
+
+.YT-nav .navbar .navbar-nav .nav-item:hover .dropdown-menu{
+    display: block;
+}
+.YT-nav .navbar .navbar-nav .nav-item:hover .dropdown-menu a{
+    color: black;
+   line-height: 30px;
+
+}
+.YT-nav .navbar .navbar-nav .nav-item:hover .dropdown-menu a:hover{
+    color: #0b67c9;
+}
+.YT-nav h2{
+    font-size: 90%;
+    margin: 0 auto;
+}
+
+nav .default-btn {
+    border: none;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    z-index: 1;
+    color: #ffffff;
+    background-color: #007aff;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    box-shadow: 0 7px 25px rgb(123 104 238 / 25%);
+    text-decoration: none;
+}
+.default-btn:hover{
+    width: 100%;
+    background-color: blue;
+    color: white;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.contents{
+    display: flex;
+    padding: 15%  10%;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://cutesolution.com/html/Techvio/assets/img/banner-bg.jpg);
+    background-size: cover;
+    background-position: bottom;
+    z-index: 1;
+    color: white;
+}
+
+.contents .content h4{
+    text-align: center;
+    font-size: 100%;
+}
+.contents .content ul{
+    display: flex;
+    list-style-type: none;
+}
+.contents .content ul li a{
+    margin-right:10px;
+    margin-left: 30px;
+    text-decoration: none;
+    color: #fff;
+    transition:0.5s;
+}
+.contents .content ul li a:hover{
+    color: #007aff;
+}
+.Question {
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+    margin: 20px 5%;
+  }
+  .Question .card{
+	margin: 2%;
+	height: 55px;
+	transition: 0.8s;
+	background-color: #f3f3f9;
+    border-radius: 5px;
+	border-left: 3px solid #7b68ee;
+  }
+  .fa-minus{
+	color: white;
+  }
+  .Question .cardshow{
+	height: 100%;
+  }
+  .Question h5{
+	font-weight: normal;
+	padding: 1% 2%;
+	cursor: pointer;
+  }
+  .Question .show{
+	display: block;
+	color: white;
+  }
+  .Question .headerbg{
+	background-color: rgb(68, 6, 237);
+	color: white;
+  }
+  .Question span{
+	position: absolute;
+	right: 0;
+	padding-right: 2%;
+	color: rgb(55, 12, 211);
+  }
+  .Question .card p{
+	overflow: hidden;
+	padding-left:  2%;
+  }
+  .footer-mail{
+    margin-top: 30px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c1c23;
+    color:#fff;
+    border-bottom: 1px solid #fff;
+}
+.footer-mail a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer{
+    background-color: #1c1c23;
+}
+.footer-header{
+    padding:20px 0px;
+    border-bottom: 1px solid #fff;
+}
+.footer-text{
+    font-size: 14px;
+    margin-top: 15px;
+}
+.footer ul li{
+    list-style-type: none;
+    margin: 10px 0px;
+    margin-left: -25px;
+}
+.footer-text li a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.8s;
+}
+.footer-text li a:hover{
+    text-decoration: underline;
+    color: #007aff;
+}
+.d-flex i{
+    margin:10px 20px;
+    font-size: 1.5rem;
+}
+.contact-info{
+    margin: 10px 0px;
+}
+.flex-column a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.8s;
+}
+.flex-column a:hover{
+    text-decoration: underline;
+    color: #007aff;
+}

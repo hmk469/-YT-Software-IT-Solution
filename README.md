@@ -1,0 +1,27 @@
+-     YT Software & IT Solution
+-
+- Your Trust Software & IT Solutions Co is a partnership company .
+- Owner Founder U Shine Aung, Partner - U Kyaw Tun Lin
+-
+- Management Team - U Ko Phyo , Ma Thandar Soe and 7 staff .
+-
+
+-     Company History
+- Our Company is founded by U Shine Aung on 2017 a business sector that deals with computing, including hardware, software, telecommunications and generally anything involved in the transmittal of information and the systems that faciliate communication.,
+-
+-     Mission Statement
+- We are on a mission across Myanmar most city to access and enjoy the best of the Internet in a way that is personal and unique to them.
+- We continue to invest in our networks to ensure seamless connectivity that caters to our customers’ growing digital needs.
+- We are working as a real digital enabler across our markets and our aspiration is to help people simplify their lives and enjoy exciting and rewarding digital world.
+-
+-     Products/services
+- Custom Software Develoment
+- Web Applications Development
+- Mobile Application Development
+- Fiber Internet
+- Across wireless internet conection
+- Software Prototyping
+- Systems Integration.
+-
+-             Target Market
+- such applications as accounting software , auditing software, database storage systems and point-of-sale systems. Small computer networking service companies and cyber-security companies.
